@@ -1,13 +1,9 @@
-#!/usr/bin/python3
-'''task 8 module'''
+#!/usr/bin/pythhon3
+""" returns a json representation of an object
+"""
 
 
 def class_to_json(obj):
-    '''returns dict discription with simple data structure'''
-    return (obj.__dict__)#!/usr/bin/python3
-'''task 8 module'''
-
-
-def class_to_json(obj):
-    '''returns dict discription with simple data structure'''
-    return (obj.__dict__)
+    """returns a json representation of
+    the obj object"""
+    return obj.__dict__
